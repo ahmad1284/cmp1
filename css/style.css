@@ -1241,3 +1241,20 @@ h6 {
   animation: 30s slidy infinite; 
   }
   /* end slider */
+
+#rotate{
+  /* Set the animation properties */
+  animation-name: rotateYAnimation;
+  animation-duration: 3s; 
+  animation-timing-function: ease-in-out; 
+  animation-iteration-count: infinite; 
+}
+
+@keyframes rotateYAnimation {
+  0% {
+    transform: rotateY(0deg); 
+  }
+  100% {
+    transform: rotateY(360deg); 
+  }
+}
